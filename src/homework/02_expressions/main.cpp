@@ -26,10 +26,9 @@ int main()
 	tip_amount = get_tip_amount(meal_amount, tip_rate);
 	
 	total = tip_amount + tax_amount + meal_amount;
-	
-	return total;
 
-	cout<<"Your total is "<<total;
+
+	cout<<"Your total is "<<total<<"\n";
 
 	return 0;
 }
